@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel</title>
+    <link rel="icon" href="Icon1.jpg">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url(maxresdefault.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            color: whitesmoke;
+        }
+
+        h1 {
+            text-align: center;
+            color: whitesmoke;
+            font-size: 52px;
+            margin-top: 20px;
+        }
+
+        .sign {
+            height: 400px;
+            width: 350px;
+            text-align: center;
+            color: white;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            top: 50%;
+            left: 50%;
+            border-radius: 15px;
+            backdrop-filter: blur(5px);
+            border: 3px solid white;
+            box-shadow: 0 0 40px rgba(139, 91, 95, 0.6);
+            padding: 40px 30px;
+        }
+
+        form * {
+            font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+            letter-spacing: 1px;
+        }
+
+        form h3 {
+            font-size: 32px;
+            font-weight: 400;
+            line-height: 42px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        form label {
+            display: block;
+            text-align: left;
+            margin-bottom: 8px;
+            font-size: 16px;
+        }
+
+        form input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid white;
+            border-radius: 5px;
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            font-size: 16px;
+        }
+
+        form input::placeholder {
+            color: #ddd;
+        }
+
+        form input:focus {
+            outline: none;
+            border: 1px solid rgb(250, 225, 5);
+        }
+
+        form button {
+            width: 100%;
+            padding: 10px;
+            font-size: 18px;
+            color: red;
+            background-color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        form button:hover {
+            background-color: rgb(250, 225, 5);
+            color: black;
+        }
+
+        p {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+
+        .con {
+            position: relative;
+            height: 750px;
+        }
+
+        .b {
+            margin: 0%;
+            position: absolute;
+            top: 90%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+
+        .button {
+            background-color: white;
+            color: red;
+            padding: 15px 32px;
+            border-radius: 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 24px;
+            font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+            margin: 4px 2px;
+            cursor: pointer;
+            border: 3px solid rgb(250, 225, 5);
+        }
+
+        .button:hover {
+            background-color: rgb(250, 225, 5);
+            color: black;
+        }
+
+        footer {
+            text-align: center;
+            color: white;
+            font-size: 14px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Marvel Cinematic Universe</h1>
+    <div class="sign">
+        <form action="">
+            <h3>Login</h3>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password">
+            <button type="submit">Log In</button>
+            <p>For more information click on Explore</p>
+        </form>
+    </div>
+    <div class="con">
+        <div class="b">
+            <a class="button" href="Marvel.html">Explore</a>
+        </div>
+    </div>
+    <footer>&copy; Copyright 2011</footer>
+</body>
+</html>

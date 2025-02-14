@@ -1,0 +1,67 @@
+body{
+    background-image: url(p1img.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h1{
+    text-align: center;
+    color: white;
+    font-size: 28px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 2px solid white;
+}
+li{
+    float: left;
+}
+li a{
+    color: red;
+    display: block;
+    text-align: center;
+    font-size: larger;
+    padding: 18px 54px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: yellowgreen;
+}
+.image{
+    float: right;
+}
+.About{
+    color: white;
+    font-size: larger;
+}
+.para{
+    color: white;
+    font-size: 24px;
+    color: gold;
+}
+.s{
+    text-align: center;
+    font-size: 28px;
+    color: red;
+}
+.Pic{
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;  
+}
+.Pic img{
+    width: 15%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: all ease-in-out 0.5s;
+}
+.Pic img:hover{
+    width: 25%;
+}

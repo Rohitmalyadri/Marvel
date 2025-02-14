@@ -1,0 +1,48 @@
+body{
+    background-image: url(p1img.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.head{
+    text-align: center;
+    color: white;
+    font-size: 28px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 2px solid white;
+}
+li{
+    float: left;
+}
+li a{
+    color: red;
+    display: block;
+    text-align: center;
+    font-size: larger;
+    padding: 18px 54px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: yellowgreen;
+}
+.About{
+    color: white;
+    font-size: larger;
+}
+.img{
+    float: right;
+}
+.content{
+    color: gold;
+    font-size: 28px;
+}
+.S{
+    text-align: center;
+    font-size: 28px;
+    color: red;
+}
